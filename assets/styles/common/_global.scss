@@ -1,0 +1,30 @@
+body {
+  overflow-x: hidden;
+}
+
+.wide {
+  // margin-left: calc(-50vw + 50%);
+  // margin-right: calc(-50vw + 50%);
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #dedede;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #dedede;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #dedede;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #dedede;
+}

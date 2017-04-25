@@ -1,0 +1,34 @@
+.content-info {
+  padding: 25px 0 30px 0;
+  text-align: center;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-weight: 300;
+
+  & a {
+    color: #000;
+  }
+
+  .social_icons {
+    margin-bottom: 20px;
+
+    & a {
+      padding: 0 15px;
+
+      & i {
+        font-size: 24px;
+      }
+    }
+  }
+
+
+  .footer_nav {
+    display: inline-block;
+    & ul {
+      @extend .list-inline;
+      @extend .list-unstyled;
+      margin: 0;
+    }
+
+  }
+}
