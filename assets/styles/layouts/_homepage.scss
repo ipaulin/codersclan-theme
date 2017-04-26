@@ -101,6 +101,8 @@
       }
 
       & .text {
+        max-width: 360px;
+        margin: 0 auto;
         padding-top: 2%;
         line-height: 24px;
         font-weight: 300;
@@ -108,6 +110,7 @@
 
         @media(min-width: $screen-md-min) {
           width: 50%;
+          max-width: none;
           float: left;
         }
 
@@ -120,11 +123,16 @@
 
     & .solution:nth-child(2) {
       & .image {
-        float: left;
+
+        @media(min-width: $screen-md-min) {
+          float: left;
+        }
       }
 
       & .text {
-        float: right;
+        @media(min-width: $screen-md-min) {
+          float: right;
+        }
       }
     }
   }
